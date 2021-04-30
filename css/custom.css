@@ -1,9 +1,12 @@
 body {
+
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     position: absolute;
     justify-self: auto;
+    width: 100%;
+    background-color: whitesmoke ;
 }
 
 h1{ 
@@ -11,7 +14,7 @@ h1{
     color: #eaceca;
     font-size: 1.8rem;
 }
-h2{font-family: 'Open Sans', sans-serif;
+h2{font-family:'Athiti';
     color: ghostwhite;
     font-size: 1.2rem;
     
@@ -20,8 +23,7 @@ h3{font-family:'Archivo Black';
     color:black;
     font-size: 1rem;
 }
-
-h4{font-family: 'Open Sans', sans-serif;
+h4{font-family:'Athiti';
     color:black;
     font-size: 0.8rem;
 }
@@ -31,7 +33,6 @@ h4{font-family: 'Open Sans', sans-serif;
     color:  #eaceca;
     background-color:  #eaceca;
 }
-
 .topb{
     grid-area: topb;
     color:  whitesmoke;
@@ -79,18 +80,17 @@ h4{font-family: 'Open Sans', sans-serif;
     margin-top: 2em;
     list-style: none;
     flex-direction: column;
-}
+  }
   
-.flex-item {
+  .flex-item {
     justify-content: left;
     padding: 4;
     margin: 4;
     width: 75%;
     height: auto;
     color: black;
-}
- 
-.container{
+  }
+  .container{
     padding: 1;
     margin: 1;
     height:100vh;
@@ -103,8 +103,7 @@ h4{font-family: 'Open Sans', sans-serif;
             "left left right right"
             "bottom bottom bottomb bottomb";
 }
-
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 850px) { 
     .container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.05fr 2fr 6fr 0.05fr;
@@ -115,8 +114,7 @@ h4{font-family: 'Open Sans', sans-serif;
             "bottom  bottomb bottomb";
     }
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
     .container{
         grid-template-columns: 1fr;
         grid-template-rows: 0.05fr 1fr 4fr 4fr 0.05fr;
