@@ -45,6 +45,9 @@ h4{font-family:'Athiti';
     text-align: center;
     background-color:#333333;
     box-shadow: 8px 8px 5px #444;
+    vertical-align:center; 
+    padding: 30px; 
+    border:1px solid black;
     z-index: 2;
 }
 
