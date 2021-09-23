@@ -1,5 +1,4 @@
 body {
-
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +7,6 @@ body {
     width: 100%;
     background-color: whitesmoke ;
 }
-
 h1{ 
     font-family:'Archivo Black';  
     color: #eaceca;
@@ -26,8 +24,8 @@ h3{font-family:'Archivo Black';
 h4{font-family:'Athiti';
     color:black;
     font-size: 0.8rem;
+    font-weight: bold;
 }
-
 .top{
     grid-area: top;
     color:  #eaceca;
@@ -38,7 +36,6 @@ h4{font-family:'Athiti';
     color:  whitesmoke;
     background-color: whitesmoke ;
 }
-
 .titre{
     grid-area: titre;
     justify-self: auto;
@@ -47,32 +44,26 @@ h4{font-family:'Athiti';
     box-shadow: 8px 8px 5px #444;
     z-index: 2;
 }
-
 .left{
     grid-area: left;
     background-color:  #eaceca;
     z-index: 1;
 }
-
-
 .right{
     grid-area: right;
     background-color: whitesmoke;
     z-index: 1;
 }
-
 .bottom{
     grid-area: bottom;
     color: whitesmoke;
     background-color:  whitesmoke;
 }
-
 .bottomb{
     grid-area: bottomb;
     color: whitesmoke;
     background-color: whitesmoke;
 }
-
 .flex-container {
     display: flex;
     flex-flow: row wrap;
@@ -80,17 +71,16 @@ h4{font-family:'Athiti';
     margin-top: 2em;
     list-style: none;
     flex-direction: column;
-  }
-  
-  .flex-item {
+}
+.flex-item {
     justify-content: left;
     padding: 4;
     margin: 4;
     width: 75%;
     height: auto;
     color: black;
-  }
-  .container{
+}
+.container{
     padding: 1;
     margin: 1;
     height:100vh;
@@ -125,7 +115,7 @@ h4{font-family:'Athiti';
         "right"
         "bottom ";
     }
-    .right{
+.right{
         grid-area: right;
         background-color: #eaceca;
     }
